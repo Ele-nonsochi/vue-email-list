@@ -1,0 +1,33 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+  margin: auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+h1{
+    text-align: center;
+}
+
+.email-list li{
+    list-style: none;
+    text-align: center;
+    padding: 0 5px;
+}
+
+.button{
+    border: 1px solid gray;
+    border-radius: 4px;
+    background-color: rgb(184, 221, 223);
+    height: 40px;
+    padding: 10px;
+    font-size: large;
+}
