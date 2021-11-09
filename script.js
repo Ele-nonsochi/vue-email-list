@@ -20,5 +20,14 @@ const vueApp = new Vue({
             }
             console.log(this.arrayEmail)
         },
+    },
+    mounted() {
+
+        this.createEmail(10);
+        /*for (let i = 0; i < 10; i++) {
+            axios.get(this.urlApi).then((element) => {
+                this.arrayEmail.push(element.data.response)
+            })
+        }*/
     }
 })
